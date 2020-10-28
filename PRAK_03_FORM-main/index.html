@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FORM PENDAFTARAN SMKN LSA BOGOR</title>
+</head>
+<body>
+	<header>
+			<div id="header" style="text-align: center; background-color: burlywood;">
+			<h1 style="color: black;">Student Registration Form </h1>
+			</div>
+	</header>
+	<form>
+	<br/>
+		<h2>PERSONAL INFORMATION</h2>
+		<hr/>
+		<table style="width: 90%">
+			<tr>
+				<td style="width: 20%">NAMA LENGKAP</td>
+				<td>:</td>
+				<td><input style="width:100%" placeholder="Masukkan Nama Lengkap" required="" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>TANGGAL LAHIR</td>
+				<td>:</td>
+				<td><input style="width:100%" type="date" name="tanggal_lahir"></td>
+			</tr>
+			<tr>
+				<td>AGAMA</td>
+				<td>:</td>
+				<td>
+					<select style="width:100%" name="Agama">
+						<option value="Agama"> Agama</option>
+						<option value="Islam">Islam</option>
+						<option value="Kristen">Kristen</option>
+						<option value="Hindu">Hindu</option>
+						<option value="Budha">Budha</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 20%">JENIS KELAMIN</td>
+				<td>:</td>
+				<td>
+					<label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+           			<label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+				</td>
+			</tr>
+			<tr>
+				<td>WARNA KESUKAAN</td>
+				<td>:</td>
+				<td><input type="color"></td>
+			</tr>
+		</table>
+
+		<h2>CONTACT INFORMATION</h2>
+		<hr/>
+		<table style="width: 90%">
+			<tr>
+				<td style="width: 20%">ALAMAT</td>
+				<td>:</td>
+				<td><textarea style="width:100%" name="alamat"></textarea></td>
+			</tr>
+			<tr>
+				<td>PROVINSI</td>
+				<td>:</td>
+				<td>
+					<select style="width:100%" name="Provinsi">
+						<option value="Provinsi"> Provinsi</option>
+						<option value="Aceh">Aceh</option>
+						<option value="Sumatra_Utara">Sumatra Utara</option>
+						<option value="Bali">Bali</option>
+						<option value="Banten">Banten</option>
+						<option value="DKI_Jakarta">DKI Jakarta</option>
+						<option value="Jawa_Barat">Jawa Barat</option>
+						<option value="Jawa_Timur">Jawa Timur</option>
+						<option value="Bali">Bali</option>
+						<option value="Sumatra_Barat">Sumatra Barat</option>
+						<option value="Riau">Riau</option>
+						<option value="Kepulauan_Riau">Kepulauan Riau</option>
+						<option value="Yogyakarta">Yogyakarta</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>KOTA</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Kota" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>KODE POS</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Kode Pos" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>NOMOR TELEPON</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Nomor Telepon"  type="number" name="nama"></td>
+			</tr>
+			<tr>
+				<td>EMAIL</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Email" type="email" name="nama"></td>
+			</tr>	
+		</table>
+			<h2>DATA SEKOLAH</h2>
+<hr/>
+		<table>
+			<tr>
+				<td>NAMA SEKOLAH</td>
+				<td>:</td>
+				<td><input style="width:100%" placeholder="Nama Sekolah" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>NILAI UJIAN</td>
+				<td>:</td>
+				<td><input style="width:100%" placeholder="Nilai Ujian" type="text" name="nama"></td>
+			</tr>	
+			<tr>
+				<td>TAHUN AJARAN</td>
+				<td>:</td>
+				<td><input style="width:100%" placeholder="Tahun Ajaran" type="text" name="nama"></td>
+			</tr>	
+		</table>
+			<h2>PENDAFTARAN PROGRAM</h2>
+			<hr/>
+		<table>
+			<tr>
+				<td>JURUSAN YANG DIPILIH</td>
+				<td>:</td>
+				<td>
+					<select style="width:100%"  name="Jurusan_Yang_Dipilih">
+						<option value="Jurusan_Yang_Dipilih">Jurusan Yang Dipilih</option>
+						<option value="Multimedia">Multimedia</option>
+						<option value="Kimia_Industri">Kimia Industri</option>
+						<option value="RPL">RPL</option>
+						<option value="Tata_Boga">Tata Boga</option>
+						<option value="TKJ">TKJ</option>
+						<option value="Teknik_Mesin">Teknik Mesin</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>PENDAFTARAN YANG DIPILIH</td>
+				<td>:</td>
+				<td>
+					<input type="radio" value="Reguler" name="tipe">
+					<label id="Reguler">Reguler</label>
+					<input type="radio" value="Prestasi" name="tipe">
+					<label id="Prestasi">Prestasi</label>
+					<input type="radio" value="Beasiswa" name="tipe">
+					<label id="Beasiswa">Beasiswa</label>
+				</td>
+			</tr>
+		</table>
+			<hr/>
+		<table>
+			<tr>
+				<td><button style="width: 100%" type="submit">SUBMIT</button></td>
+				<td><button style="width: 100%" type="reset">BATAL</button></td>
+			</tr>
+			</table>
+		</form>
+	</body>
+	</html>
